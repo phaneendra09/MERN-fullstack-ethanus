@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;  
+        }
+        .a1{
+            position: relative;
+            font-size: larger;
+            left: 480px;
+            padding: 10px;
+        }
+        .i1{
+            padding: 7px;
+            font-size: larger;
+            border:1px solid grey;
+        }
+        .login{
+            border:1px solid grey;
+            height: 30px;
+            width: 400px;
+            font-size: larger;
+            background-color: green;
+            color: white;
+        }
+        .l1{
+            border:1px solid grey;
+            height: 50px;
+            width: 400px;
+            background-color: rgb(222, 213, 213);
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div><img src="panda.jpg" alt=""></div>
+        
+    </center>
+    <table class="a1" border="0" cellspacing="5px">
+        <tr>
+            <td><b>User name</b></td>
+        </tr>
+        <tr>
+            <td><input class="i1" type="text" style="width:400px;" placeholder="Enter Username" required></td>
+        </tr>
+        <tr>
+            <td><b>Password</b></td>
+        </tr>
+        <tr>
+            <td><input class="i1" type="password" style="width:400px;" placeholder="Enter Password" required></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="login"><center>Login</center></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" checked/>Remember me</td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="l1">
+                <input type="button" value="cancel" style="background-color: red; width:70px; height:30px; border-radius:5px; color:white;"/>
+                <p style="text-align: right; position:absolute; right:20px; top:259px; text-decoration-line:underline;">Forgot password?</p>
+            </td>       
+        </tr>
+    </table>
+</body>
+</html>
